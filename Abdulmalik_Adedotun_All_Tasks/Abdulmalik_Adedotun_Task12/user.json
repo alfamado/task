@@ -1,0 +1,36 @@
+{
+    "farmers": {
+        "08023567823": {
+            "name": "Abdulmalik Adedotun",
+            "location": "Abeokuta",
+            "phone_no": "08023567823",
+            "pin": "1234",
+            "crop_specialty": "rice",
+            "size_of_farm": 100,
+            "role": "farmer"
+        },
+        "09137135971": {
+            "name": "rasak olasunkanmi",
+            "location": "sokoto",
+            "phone_no": "09137135971",
+            "pin": "2020",
+            "crop_specialty": [
+                "potato"
+            ],
+            "size_of_farm": 100,
+            "role": "farmer"
+        },
+        "08160509131": {
+            "name": "ridwan victor",
+            "location": "sango",
+            "phone_no": "08160509131",
+            "pin": "1030",
+            "crop_specialty": [
+                "pepper"
+            ],
+            "size_of_farm": 10,
+            "role": "farmer"
+        }
+    },
+    "buyers": {}
+}
