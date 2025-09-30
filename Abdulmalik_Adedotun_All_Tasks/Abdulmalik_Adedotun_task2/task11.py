@@ -1,0 +1,12 @@
+# 11. Nigeria Currency Converter
+amount_in_naira = float(input("Enter the amount you want to exchange #"))
+exchange_rate_in_usd = float(input("Rate of a dollar in naira $"))
+exchange_rate_pound = float(input("Rate of pounds in naira £"))
+rate_in_naira_to_dollars = (amount_in_naira / exchange_rate_in_usd)
+rate_in_naira_to_pound = (amount_in_naira / exchange_rate_pound)
+print(f"{amount_in_naira:,f}")
+print(f"{exchange_rate_in_usd:,f}")
+print(f"{exchange_rate_pound:,f}")
+print("The table below shows the rate of naira to US dollars and in pounds")
+print("naira\t        dollars\t        pounds")
+print(f"#{amount_in_naira:,f}\t${rate_in_naira_to_dollars:,f}\t£{rate_in_naira_to_pound:,f}")
