@@ -1,0 +1,15 @@
+{
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3010,
+            "driver": "PostgreSQL",
+            "name": "Alfamado",
+            "database": "library_db",
+            "username": "postgres",
+            "connectionTimeout": 30
+        }
+    ]
+}
